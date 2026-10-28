@@ -169,3 +169,16 @@ Packages/packages-lock.json linguist-generated
 
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+
+# Bucky Away additions: Houdini, Substance, Alembic, FMOD/Wwise banks
+*.hip                   lfs
+*.hipnc                 lfs
+*.hiplc                 lfs
+*.bgeo                  lfs
+*.bgeo.sc               lfs
+*.abc                   lfs
+*.sbsar                 lfs
+*.sbs                   lfs
+*.spp                   lfs
+*.bank                  lfs
+*.bnk                   lfs
